@@ -22,7 +22,7 @@ public class Crossover {
 		List<Boolean> solutionA = this.a.getSolution();
 		List<Boolean> solutionB = this.b.getSolution();
 		
-		int nextgen = a.getGeracao();
+		int nextgen = a.getGeracao() + 1;
 		
 		int totalA = solutionA.size();
 		int totalB = solutionA.size();

@@ -14,8 +14,6 @@ public class Cromossomo {
 	private Double tamanho;
 	private String nome;
 	
-	private static List<Double> precos = new ArrayList<>();
-	private static List<Double> tamanhos = new ArrayList<>();
 	private static List<Cromossomo> cromossomos = new ArrayList<>();
 	
 	
@@ -23,8 +21,6 @@ public class Cromossomo {
 		this.nome = nome;
 		this.preco = preco;
 		this.tamanho = tamanho;
-		precos.add(preco);
-		tamanhos.add(tamanho);
 	}
 	
 	
@@ -39,7 +35,7 @@ public class Cromossomo {
 	
 	private static void generateList() {
 		
-		if(cromossomos.size() == 0) { // lista é gerada apenas uma vez
+		if(cromossomos.size() == 0) { // lista ï¿½ gerada apenas uma vez
 			
 			try {
 				

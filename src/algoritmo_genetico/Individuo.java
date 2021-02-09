@@ -105,4 +105,10 @@ public class Individuo implements Comparable<Individuo> {
 		return 0;
 	}
 	
+	
+	public void indentidade() {
+		System.out.println("Nota: " + notaAvaliacao);
+		System.out.println("Geracao: " + geracao + "\n");
+	}
+	
 }
